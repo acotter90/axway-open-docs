@@ -1,0 +1,50 @@
+---
+apiVersion: v1alpha1
+kind: Stage
+name: production
+title: Production deployment Stage
+tags:
+  - axway
+  - saas
+spec:
+  description: Group of production apis
+---
+apiVersion: v1alpha1
+kind: Category
+name: billing ## create category name
+title: billing
+tags:
+  - axway
+spec:
+  description: Billing Category
+---
+apiVersion: v1alpha1
+kind: AssetMappingTemplate
+name: assettemplate
+title: music
+tags: []
+metadata:
+  scope:
+    kind: Environment
+    name: env1
+spec:
+  filters: []
+---
+apiVersion: v1alpha1
+kind: AssetMapping
+name: testmapping
+title: Test Mapping
+tags: []
+metadata:
+  scope:
+    kind: Environment
+    name: env1
+spec:
+  inputs:
+    apiService: apisvc1
+    apiServiceRevision: apisvcrev1
+    apiServiceInstance: apisvcinst1 ## apiservice instance name
+    stage: production
+    asset: testasset
+  assetMappingTemplate: assettemplate
+
