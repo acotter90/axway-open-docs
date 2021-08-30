@@ -6,7 +6,6 @@ date: 2020-11-18
 description: Understand environments in a topology, what they are, and what can
   you do with them.
 ---
-{{< alert title="Public beta" color="warning" >}}This feature is currently in **public beta** and not yet available for production use.{{< /alert >}}
 
 Within topology, environments represent a group of assets discovered from a gateway, a repository, or anything manually added to the environment. These grouped assets (API services, webhooks, secrets) are displayed in Amplify Central. Environments are at the highest hierarchical level, and all assets are scoped within.
 
