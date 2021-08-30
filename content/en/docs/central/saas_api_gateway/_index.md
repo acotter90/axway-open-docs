@@ -1,7 +1,7 @@
 ---
 title: SaaS API Gateway Management
 linkTitle: SaaS API Gateway Management
-weight: 155
+weight: 65
 date: 2021-08-18T00:00:00.000Z
 hide_readingtime: true
 description: Getting started with Axway SaaS API Gateway Management to register your SaaS API in Amplify Central.

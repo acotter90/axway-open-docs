@@ -1,7 +1,7 @@
 ---
 title: Connect AWS Gateway
 linkTitle: Connect AWS Gateway
-weight: 140
+weight: 45
 date: 2021-01-04
 description: Understand why you would want a connected / managed environment for
   AWS API Gateway within Amplify Central. Learn how you can govern and monitor

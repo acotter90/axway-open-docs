@@ -1,7 +1,7 @@
 ---
 title: Connect Azure Gateway
 linkTitle: Connect Azure Gateway
-weight: 145
+weight: 50
 date: 2021-01-07
 description: Understand why you would connect Azure API Management Services to
   Amplify Central. Learn how you can publish to the Amplify Catalog from your

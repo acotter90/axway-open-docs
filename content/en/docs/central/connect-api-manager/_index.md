@@ -1,7 +1,7 @@
 ---
 title: Connect API Manager
 linkTitle: Connect API Manager
-weight: 130
+weight: 40
 date: 2020-15-15
 description: Understand why you would connect Axway API Manager to Amplify
   Central. Learn how you can publish to the Amplify Catalog from your API
