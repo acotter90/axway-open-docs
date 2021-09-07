@@ -8,9 +8,10 @@ description: Learn how add endpoints to an API service.
 
 ## Add an endpoint to API service
 
-Before adding an endpoint, you must [add a service](/docs/central/env_gw_mgmt/add_api_service).
+Before adding an endpoint, you must [add a service](/docs/central/env_gw_mgmt/add_api_service).  Adding a service will prompt you to create an endpoint, or you can optionally move past this step and add an endpoint later. To add an endpoint to an existing service, visit the details page of your service, then click the (+ Add Endpoint) button located at the top right of the **Endpoints** tab.
 
-1. From the details page of your service, click the (+ Add Endpoint) button located at the top right of the **Endpoints** tab.
+1. Enter a **Title** and **Logical Name** for your API service endpoint.
+2. Click (+ Create API Endpoint(s)) to expand the optional form where you can add one or more endpoints. 
 2. Enter information about your API service endpoint:
     * **Protocol**: The transfer protocol used by the API service.
     * **Host**: The domain name or IP address of the API service.
