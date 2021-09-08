@@ -48,7 +48,10 @@ It will still be possible to deploy upgraded configurations containing the retir
 
 ### Support for Apache Cassandra 3.11.11
 
-API Gateway now supports Apache Cassandra 3.11.11. For installation instructions, see [Install an Apache Cassandra database](/docs/apim_installation/apigtw_install/cassandra_install/). For details on how to upgrade existing Apache Cassandra environments, see [Upgrade Apache Cassandra](/docs/apim_installation/apigw_upgrade/upgrade_cassandra/).
+API Gateway now supports Apache Cassandra 3.11.11. For details on how to upgrade existing Apache Cassandra environments, see [Upgrade Apache Cassandra](/docs/apim_installation/apigw_upgrade/upgrade_cassandra/).
+
+{{< alert title="Note" >}}Apache Cassandra version 2.2 onwards will no longer be supported by Apache Cassandra after their end of service date of April 2022. Axway will continue to provide support for these versions on a best efforts basis post April 2022, however, no critical updates will be available from Apache Cassandra from that time. Therefore, we recommend you to update your Cassandra installation to version 3.11.11 before that time.
+{{<> /alert >}}
 
 ### Unauthenticated request rate limiter is available in API Manager
 
@@ -56,7 +59,7 @@ You can now configure an unauthenticated request rate limiter in your API Manage
 
 ### Notice of schedule change for updates
 
-The cadence of the updates for API Gateway, API Manager, and API Portal has changed. From the August update onwards, the update schedule follows a three months release cadence.
+The cadence of the updates for API Gateway, API Manager, and API Portal has changed. From the August update onwards, the update schedule follows a three months release cycle.
 
 ## Deprecated features
 
@@ -70,7 +73,7 @@ No capabilities have been deprecated in this update.
 
 <!-- There are no end of support notices in this update.-->
 
-Apache Cassandra versions 2.2 onwards will no longer be supported by Apache Cassandra after their end of service date of April 2022. Axway will continue to support these versions on a best efforts basis, however, no critical updates will be available from Apache Cassandra from that time.
+Apache Cassandra version 2.2 onwards will no longer be supported by Apache Cassandra after their end of service date of April 2022. Axway will continue to support these versions on a best efforts basis, however, no critical updates will be available from Apache Cassandra from that time.
 
 ## Removed features
 
