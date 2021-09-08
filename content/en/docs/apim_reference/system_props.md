@@ -431,7 +431,6 @@ Axway-defined Java system properties introduced in the 7.7 20210830 release
 |jdk.xml.entityExpansionLimit | API Gateway |Specifies the XML Schema validation limit for the number of entity expansions. Default value: 64000. |
 |jdk.xml.maxOccurLimit |  API Gateway | Specifies the XML Schema validation limit for the number of content model nodes. Default value: 5000. |
 |com.vordel.dwe.file.Service.includeConfDirectory | API Gateway | Specifies whether or not `conf-dir` and `envSettings.props` are included in the output of the API Gateway File API. |
-|com.vordel.coreapireg.runtime.broker.parameters.allowEmptyDefault | API Manager | Allows empty values for any query parameter data type. Defaults to 'false'. |
 |com.axway.api.runtime.broker.parameters.skipRequiredValidation | API Manager | Allows required parameters validation to be skipped during processing of user requests. Defaults to 'false'. |
 |com.axway.api.runtime.broker.parameters.skipEnumValidation | API Manager | Allows enum parameters validation to be skipped during processing of user requests. Defaults to 'false'. |
 |com.axway.apigw.dbconnection.removeabandoned | API Gateway | Allows removal of abandoned connections if they exceed the abandoned connection timeout. Defaults to 'true'. |
